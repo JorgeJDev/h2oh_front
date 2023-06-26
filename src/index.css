@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.mt-2vh {
+  margin-top: 2.5vh;
+}
+
+.bottom-4vh {
+  bottom: 4vh;
+}
+
+.h-vh60 {
+  height: 60vh;
+}
+.h-vh80 {
+  height: 80vh;
+}
+.h-vh70 {
+  height: 70vh;
+}
